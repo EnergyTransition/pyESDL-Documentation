@@ -18,7 +18,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'Multimodelling'
+project = 'pyESDL'
 copyright = '2023, Edwin Matthijssen, Ewoud Werkman'
 author = 'Edwin Matthijssen, Ewoud Werkman'
 
@@ -31,6 +31,8 @@ author = 'Edwin Matthijssen, Ewoud Werkman'
 extensions = [
     "sphinx_rtd_theme",
     "sphinx.ext.autosectionlabel",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary"
 ]
 
 # Add any paths that contain templates here, relative to this directory.

@@ -11,6 +11,8 @@ Welcome to the PyESDL documentation
    :caption: Contents:
 
    introduction/index
+   coding examples/index
+   api
 
 
 Indices and tables
